@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+/* Header Section */
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+.logo {
+
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-links li a:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background-color: #d3efed;
+}
+
+.features .feature {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #f2f2f2;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h4 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: red;
+}
+
+.product-card .btn {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.product-card .btn:hover {
+    background-color: #ff3333;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
